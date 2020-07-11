@@ -1,6 +1,6 @@
 # 爬取淘宝商品信息至MongoDB数据库
 ## 说明
-现在的淘宝搜索商品时需要登录账号和验证，这里都做了，建议你使用Chrom浏览器，并为Chrome浏览器配置驱动，您自己的淘宝账号和密码在config配置文件里面的账号是username选项，密码是password选项，因为是将信息保存至数据库，所以需要安装MongoDB数据库，如果你想保存到其他的MongoDB数据库，也是在congfig里面去修改
+现在的淘宝搜索商品时需要登录账号和验证，这里都做了，建议你使用Chrom浏览器，并为Chrome浏览器配置驱动，您自己的淘宝账号和密码在config配置文件里面的账号是username选项，密码是password选项，同时你想要的爬取什么商品也是在congfig里面去修改KEYWORD里面去修改的，因为是将信息保存至数据库，所以需要安装MongoDB数据库，如果你想保存到其他的MongoDB数据库，
 ## 需要的库
 ``` python
 import re
